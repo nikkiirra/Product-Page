@@ -1,5 +1,30 @@
-#header-img {
-  width: 89.08px;
-  height: 90px;
+#header {
+  background-color: black;
+  height: 132px;
+  width: 1440px;
+
 }
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#header-img {
+  height: 90px;
+
+}
+
+.ul-container {
+  display: flex;
+  align-content: space-between;
+  padding-left: 40px;
+  width: 400px;
+}
+
+.nav-link {
+  width: 100px;
+}
+
 
