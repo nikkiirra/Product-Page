@@ -5,6 +5,13 @@
 
 }
 
+#logo-container {
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 20px;
+  width: 150px;
+}
+
 #nav-bar {
   display: flex;
   flex-direction: row;
