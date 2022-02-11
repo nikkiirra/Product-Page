@@ -29,19 +29,8 @@
 
 }
 
-/* ul {
+ul li a{
   text-decoration: none; 
-} */
-
-.ul-container {
-  display: flex;
-  align-content: space-between;
-  padding-left: 40px;
-  width: 480px;
-}
-
-.nav-link {
-  width: 120px;
   font-family: Roboto;
   color: white;
   font-size: 25px;
@@ -51,6 +40,23 @@
   letter-spacing: 0em;
   text-align: center;
 
+
+  /* list-style-type: none; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+.ul-container {
+  display: flex;
+  align-content: space-between;
+  padding-left: 40px;
+  width: 800px;
+}
+
+.nav-link {
+  width: 200px;
 }
 
 
