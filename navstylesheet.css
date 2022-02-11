@@ -27,11 +27,11 @@
   display: flex;
   align-content: space-between;
   padding-left: 40px;
-  width: 400px;
+  width: 480px;
 }
 
 .nav-link {
-  width: 100px;
+  width: 120px;
 }
 
 
