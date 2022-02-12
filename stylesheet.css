@@ -19,6 +19,11 @@ video {
   color: #FF0000; 
 }
 
-h3 {
-  font-size: 25px;
+#product-motto {
+  width: 100%;
+  height: 31px;
+
+  display: flex;
+  justify-content: center;
+
 }
