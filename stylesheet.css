@@ -47,3 +47,24 @@ video {
   width: 602px;
   height: 316px;
 }
+
+.overview-text {
+  padding-left: 40px;
+  padding-top: 10px;
+
+  font-size: 48px;
+}
+
+.overview-paragraph {
+  padding: 50px 25px 25px 25px;
+  margin-top: 20px;
+
+  font-size: 22px;
+
+  text-align: justify;
+}
+
+
+
+
+
