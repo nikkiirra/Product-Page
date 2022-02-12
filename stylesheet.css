@@ -32,6 +32,18 @@ video {
 #overview-container {
   width: 100%;
   height: 370px;
+  display: grid;
+  grid-template-columns: 25% 35% 35%;
+
 
   background-color: black;
+}
+
+.overview-text, .overview-paragraph {
+  color: white;
+}
+
+.overview-image {
+  width: 602px;
+  height: 316px;
 }
