@@ -6,19 +6,20 @@
 
 #header {
   background-color: black;
-  height: 132px;
+  height: 200px;
   width: 100%;
 
 }
 
 #logo-container {
+  padding-top: 10px;
   display: inline-flex;
   justify-content: center;
-  padding-top: 20px;
   width: 150px;
 }
 
 #nav-bar {
+  padding-left: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -30,6 +31,7 @@
 }
 
 ul li a{
+
   text-decoration: none; 
   font-family: 'Bebas Neue', cursive;
   color: white;
@@ -45,6 +47,7 @@ ul li a{
 }
 
 ul {
+  padding-top: 30px;
   list-style-type: none;
 }
 

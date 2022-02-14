@@ -18,9 +18,9 @@
             <img id="header-img" src="images/leica-logo-png-image-transparent-101576593727vbythyexbz.png" alt=""> 
           </div>
           <ul class="ul-container">
-            <li class="nav-link"><a href="#">Overview</a></li>
+            <li class="nav-link"><a href="#overview-section">Overview</a></li>
 
-            <li class="nav-link"><a href="#">LEICA Q2</a></li>
+            <li class="nav-link"><a href="#specification">LEICA Q2</a></li>
 
             <li class="nav-link"><a href="#">Newsletter</a></li>
 
@@ -41,6 +41,7 @@
 
     <!--OVERVIEW SECTION-->
     <div id="overview-container1">
+      <a name="overview-section"></a>
       <div class="overview-text">OVERVIEW</div>
       <p class="overview-paragraph">
         
@@ -79,6 +80,7 @@
     </div>
 
     <div id="specification-container">
+      <a name="specification"></a>
       <div class="specification-text">SPECIFICATION</div>
       <div class="specification-content">
         <table class="table-container">
@@ -109,7 +111,7 @@
           </tr>
           
           <tr>
-            <td>Digital frame selector</td>
+            <td>Frame selector</td>
             <td>28mm, 35mm, 50mm, 75mm</td>
           </tr>
 
@@ -119,25 +121,25 @@
           </tr>
           
           <tr>
-            <td>Picture resolution</td> 
-            <td>Full frame black-and-white CMOS sensor,<br>
+            <td>Photo resolution </td> 
+            <td><br><br>Full frame black-and-white CMOS sensor,<br>
               50.4/47.3 million pixels (total/effective),<br>
               without color and low-pass filter<br></td>
           </tr> 
 
           <tr>
-            <td>Photo Format</td>
+            <td>Photo format</td>
             <td>DNG, DNG + JPEG, JPEG</td>
           </tr>
           
           <tr>
-            <td>Video Format</td>
+            <td>Video format</td>
             <td>MP4 (C4K / 4K / FullHD)</td>
           </tr>
           
           <tr>
-            <td>Video resolution rate</td>
-            <td>4K: 30 oder 24 B/s<br>
+            <td>Video resolution</td>
+            <td><br><br> 4K: 30 oder 24 B/s<br>
                 C4K: 24 B/s<br>
                 Full-HD: 24, 30, 60 oder 120 B/s</td>
           </tr>
@@ -148,12 +150,12 @@
           </tr>
 
           <tr>
-            <td>Microphone Stereo</td>
+            <td>Mic stereo</td>
             <td>Speaker Mono</td>
           </tr>
           
           <tr>
-            <td>Storage memory</td>
+            <td>Storage </td>
             <td>SD/SDHC/SDXC memory cards</td>
           </tr>
           
@@ -182,17 +184,21 @@
 
 
     <!-- FORM-->
-
-    <form id="form" action="">
-
-      <label for="email">Enter your email:</label>
-      <input id="email" type="email"  name="email">
-      <input id="submit" type="submit" value="Submit">
-      
+    <div class="newsletter-container">
+      <form id="form" action="">
+        <div>
+          <h1 id="forms-title">Sign up and stay connected with the world of Leica</h1>
+        </div>
+        <div id="email-container">
+          <label for="email" id="email-label"></label> <br>
+               <input type="email" class="email-box" name="email" placeholder="                  
+               user@company.com" required>
+               <input id="submit" type="submit" value="Submit">
+        </div>
       <!-- When I click the #submit element, the email is submitted to a DYNAMIC page-->
 
-    </form>
-
+      </form>
+  </div>
 
     <!--User Story #13: The navbar should always be at the top of the viewport.
         User Story #14: My product landing page should have at least one media query.
