@@ -11,7 +11,7 @@ video {
   display: flex;
   justify-content: center;
 
-  /* font-family: Roboto;  CHANGE FONT STYLE*/
+  font-family: 'Bebas Neue', cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -21,6 +21,7 @@ video {
 }
 
 #product-motto {
+  
   width: 100%;
   height: 60px;
 
@@ -55,6 +56,7 @@ video {
   padding-left: 40px;
   padding-top: 10px;
 
+  font-family: 'Bebas Neue', cursive;
   font-size: 48px;
 }
 
