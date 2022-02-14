@@ -100,9 +100,12 @@ video {
   text-justify: distribute-all-lines;
   text-align: justify;
   text-align-last: justify;
-
 }
 
+/* TABLE STYLESHEET */
 
-
+.table-container {
+  border-collapse: collapse;
+  margin: 25px 0;
+}
 
